@@ -6,13 +6,15 @@
   "dependencies": {
     "express": "^4.17.1",
     "serve-favicon": "^2.5.0",
-    "socket.io": "^2.4.0"
+    "socket.io": "^2.4.0",
+    "nodemon": "^2.0.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
   },
   "scripts": {
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "start": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
